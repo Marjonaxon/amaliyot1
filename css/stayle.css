@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+.logo{
+    width: 120px;
+    height: 39px;
+}
+.logo img{
+    width: inherit;
+    height: inherit;
+}
+.list li{
+    display: inline-block;
+}
+.list li:not(:last-child){
+    margin-right: 32px;
+}
+.list li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #192252;
+    text-decoration: none;
+}
+.site-btn{
+    padding: 14px 16px;
+    background: #0E1734;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left{
+    width: 587px;
+    height: 332px;
+}
+.hero-left h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+.hero-left p{
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    margin-bottom: 32px;
+}
+.hero-right img{
+    width: 180px;
+    height: 588px;
+}
+.hero-righ img:not(:last-child){
+    margin-right: 24px;
+}
+.secon-pic{
+    transform: translateY(96px);
+}
+.hero{
+    margin-top: 80px;
+}
+.about{
+    margin-top: 80px;
+}
+.about-left{
+    width: 384px;
+    height: 576px;
+}
+.about-left img{
+    width: inherit;
+    height: inherit;
+}
+.about-right{
+    width: 690px;
+    height: 366px;
+}
+.about-right h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+.about-right p{
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    margin-bottom: 32px;
+}
+.top-contanet{
+    width:584px;
+    height: 159px;
+}
+.top-contanet h1{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+.top-contanet p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+}
+.top-picture{
+    width: 384px;
+    height: 384px;
+}
+.top-picture img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.bottom-pic{
+    width: 384px;
+    height: 384px;
+
+}
+.bottom-pic img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.bottom-content{
+    width: 584px;
+    /* height: 159px; */
+}
+.bottom-content h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #192252;
+    margin-bottom: 24px;
+}
+.bottom-content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    text-align: center;
+}
+.rese-top{
+    text-align: center;
+    margin: 80px 0;
+}
+.rese-top h1{
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+}
+.rese-top p{
+    margin-bottom: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+}
+.card{
+    width: 384px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card img{
+    width:384px;
+    height: 489px;
+    margin-bottom: 32px;
+    gap: 10px;
+}
+.card h2{
+    margin-bottom: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+.card p{
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    margin-bottom: 32px;
+}
